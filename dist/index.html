@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Please work. I'm dying. I want to eat something</title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- We need to link to inject our App into the DOM. To do so, we don't reference to index.js, but to index.bundle.js (it's the file we have referenced to into webpack). If we had to use index.js, the browser won't be able to display the app because it has not been yet converted into readable code through babel/webpack  -->
+    <script src="index.bundle.js"></script>
+</body>
+</html>
