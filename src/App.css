@@ -1,0 +1,6 @@
+.title {
+	grid-column: 1/-1;
+	font-size: 1.5rem;
+	background-color: #4af626;
+	color: black;
+}
