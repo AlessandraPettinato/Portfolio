@@ -15,10 +15,12 @@ export default function App() {
 			<p className="login">Last login: {login}</p>
 			<div className="user-container">
 				<BsArrowRightShort className="arrow" />
+				<p className="tilde"> ~ </p>
 				<p className="user" text="/Users/visitor">
 					/Users/visitor
 				</p>
-				<div className="blinking" />
+				{/* <div className="blinking" /> */}
+				<input className="blinking" />
 			</div>
 			{/* <p className="intro">
 				Some cute words about me. Lorem ipsum dolor sit amet, consectetur
