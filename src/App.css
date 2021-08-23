@@ -1,0 +1,68 @@
+.login {
+	grid-column: 2/7;
+	grid-row: 1;
+	color: white;
+	align-self: center;
+	font-size: 1.5rem;
+}
+
+.user-container {
+	grid-column: 2/-2;
+	grid-row: 2;
+	display: flex;
+	lign-items: center;
+}
+
+.user {
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: white;
+	align-self: start;
+}
+
+.blinking {
+	width: 10px;
+	height: 25px;
+	overflow: hidden;
+	-webkit-animation: blinking 1s infinite;
+	animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+	0% {
+		background-color: transparent;
+	}
+	49% {
+		background-color: transparent;
+	}
+	50% {
+		background-color: white;
+	}
+}
+
+input {
+	background: black;
+	border: black;
+	color: white;
+	font-family: "Cutive Mono", monospace;
+	font-size: 1.5rem;
+}
+
+.arrow {
+	color: #41c731;
+	align-self: center;
+	font-size: 1.5rem;
+}
+
+.tilde {
+	color: #40c5d1;
+	align-self: center;
+	font-size: 1.8rem;
+}
+
+.intro {
+	grid-column: 2/6;
+	grid-row: 3;
+	color: #40c5d0;
+	font-size: 1.2rem;
+}
