@@ -6,14 +6,44 @@
 	font-size: 1.5rem;
 }
 
-.title {
+.user-container {
 	grid-column: 2/-2;
 	grid-row: 2;
-	font-size: 1.8rem;
+	display: flex;
+	lign-items: center;
+}
+
+.user {
+	font-size: 1.5rem;
 	font-weight: bolder;
-	color: black;
-	background-color: #40c5d0;
+	color: white;
 	align-self: start;
+}
+
+.blinking {
+	width: 10px;
+	height: 25px;
+	overflow: hidden;
+	-webkit-animation: blinking 1s infinite;
+	animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+	0% {
+		background-color: transparent;
+	}
+	49% {
+		background-color: transparent;
+	}
+	50% {
+		background-color: white;
+	}
+}
+
+.arrow {
+	color: #41c731;
+	align-self: center;
+	font-size: 1.5rem;
 }
 
 .intro {
