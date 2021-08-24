@@ -4,6 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import ProjectOne from "./components/ProjectOne";
 import Resume from "./components/Resume";
 import "./App.css";
+import UserInput from "./controllers/UserInput";
 
 export default function App() {
 	const date = new Date().toDateString().slice(0, 10);
@@ -13,28 +14,11 @@ export default function App() {
 
 	const login = `${date} ${hours}:${minutes}:${seconds}`;
 
-	const [blinking, setBlinking] = useState(true);
+	const [showResume, setShowResume] = useState(false);
 
 	const [values, setValues] = useState({
 		userInput: "",
 	});
-
-	const [showResume, setShowResume] = useState(false);
-	const [disabled, setDisabled] = useState(false);
-
-	const handleChangeInput = (e) => {
-		setBlinking(false);
-		setValues({
-			userInput: e.target.value,
-		});
-	};
-
-	const handleClickInput = (e) => {
-		e.preventDefault();
-		setShowResume(true);
-		setDisabled(true);
-		console.log("clicked");
-	};
 
 	return (
 		<>
@@ -43,21 +27,14 @@ export default function App() {
 				<BsArrowRightShort className="arrow" />
 				<p className="tilde"> ~ </p>
 				<p className="user" text="/Users/visitor"></p>
-				<form onSubmit={(e) => handleClickInput(e)}>
-					<input
-						className={blinking ? "blinking" : "stop-blinking"}
-						value={values.userInput}
-						onChange={handleChangeInput}
-						disabled={disabled}
-					/>
-				</form>
-				{/* <button
-					onClick={() => handleClickInput()}
-					style={{ position: "absolute", left: "40rem" }}
-				>
-					Clicca quaaa
-				</button> */}
 			</div>
+			<UserInput
+				showResume={showResume}
+				setShowResume={setShowResume}
+				values={values}
+				setValues={setValues}
+			/>
+
 			{showResume && values.userInput === "nano resume" ? <Resume /> : null}
 			{/* <p className="intro">
 				Some cute words about me. Lorem ipsum dolor sit amet, consectetur

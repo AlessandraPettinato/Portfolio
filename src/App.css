@@ -58,6 +58,11 @@
 	font-size: 1.8rem;
 }
 
+form {
+	grid-column: 2/6;
+	grid-row: 2;
+}
+
 input {
 	background: black;
 	border: black;
