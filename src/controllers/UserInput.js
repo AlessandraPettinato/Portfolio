@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function UserInput({ setShowResume, values, setValues }) {
+export default function UserInput({ setShowComponent, values, setValues }) {
 	const [blinking, setBlinking] = useState(true);
 
 	const [disabled, setDisabled] = useState(false);
@@ -14,7 +14,7 @@ export default function UserInput({ setShowResume, values, setValues }) {
 
 	const handleClickInput = (e) => {
 		e.preventDefault();
-		setShowResume(true);
+		setShowComponent(true);
 		setDisabled(true);
 	};
 

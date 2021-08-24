@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 
-import ProjectOne from "./components/ProjectOne";
-import Resume from "./components/Resume";
-import "./App.css";
 import UserInput from "./controllers/UserInput";
+
+import Resume from "./components/Resume";
+import BrightFlash from "./components/BrightFlash";
+import SpaceCoachella from "./components/SpaceCoachella";
+import Dravo from "./components/Dravo";
+
+import "./App.css";
 
 export default function App() {
 	const date = new Date().toDateString().slice(0, 10);
@@ -14,7 +18,7 @@ export default function App() {
 
 	const login = `${date} ${hours}:${minutes}:${seconds}`;
 
-	const [showResume, setShowResume] = useState(false);
+	const [showComponent, setShowComponent] = useState(false);
 
 	const [values, setValues] = useState({
 		userInput: "",
@@ -29,13 +33,20 @@ export default function App() {
 				<p className="user" text="/Users/visitor"></p>
 			</div>
 			<UserInput
-				showResume={showResume}
-				setShowResume={setShowResume}
+				setShowComponent={setShowComponent}
 				values={values}
 				setValues={setValues}
 			/>
 
-			{showResume && values.userInput === "nano resume" ? <Resume /> : null}
+			{showComponent && values.userInput === "nano resume" ? <Resume /> : null}
+			{showComponent && values.userInput === "nano Bright Flash" ? (
+				<BrightFlash />
+			) : null}
+			{showComponent && values.userInput === "nano Space Coachella" ? (
+				<SpaceCoachella />
+			) : null}
+			{showComponent && values.userInput === "nano Dravo" ? <Dravo /> : null}
+
 			{/* <p className="intro">
 				Some cute words about me. Lorem ipsum dolor sit amet, consectetur
 				adipiscing elit. Donec magna felis, tempor tempus sodales eu, laoreet
