@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 
 import UserInput from "./controllers/UserInput";
-import HandleInput from "../HandleInput";
 
 export default function Terminal() {
 	const date = new Date().toDateString().slice(0, 10);
@@ -11,10 +10,6 @@ export default function Terminal() {
 	const seconds = new Date().getSeconds();
 
 	const login = `${date} ${hours}:${minutes}:${seconds}`;
-
-	const [errorHandling, setErrorHandling] = useState({
-		err: "Command not found",
-	});
 
 	return (
 		<>

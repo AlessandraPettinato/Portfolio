@@ -11,6 +11,10 @@ export default function HandleInput() {
 
 	const [showComponent, setShowComponent] = useState(false);
 
+	const [errorHandling] = useState({
+		message: "Command not found",
+	});
+
 	const handleChangeInput = (e) => {
 		setBlinking(false);
 		setValues({
@@ -22,7 +26,6 @@ export default function HandleInput() {
 		e.preventDefault();
 		setShowComponent(true);
 		setDisabled(true);
-		console.log("clickeeeed");
 	};
 
 	return {
@@ -32,6 +35,7 @@ export default function HandleInput() {
 		setDisabled,
 		blinking,
 		setBlinking,
+		errorHandling,
 		handleChangeInput,
 		handleClickInput,
 		showComponent,

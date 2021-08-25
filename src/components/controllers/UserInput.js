@@ -1,5 +1,5 @@
 import React from "react";
-import HandleInput from "../../HandleInput";
+import HandleInput from "./HandleInput";
 
 import Resume from "../Resume";
 import BrightFlash from "../projects/BrightFlash";
@@ -11,6 +11,7 @@ export default function UserInput() {
 		values,
 		disabled,
 		blinking,
+		errorHandling,
 		handleChangeInput,
 		handleClickInput,
 		showComponent,
@@ -38,6 +39,13 @@ export default function UserInput() {
 			) : null}
 
 			{showComponent && values.userInput === "nano dravo" ? <Dravo /> : null}
+
+			{showComponent &&
+				values.userInput !==
+					("nano resume" ||
+						"nano bright flash" ||
+						"nano space coachella" ||
+						"nano dravo") && <p className="err">{errorHandling.message}</p>}
 		</>
 	);
 }
