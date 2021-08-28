@@ -58,10 +58,14 @@
 	font-size: 1.8rem;
 }
 
-form {
+.form-container {
 	grid-column: 2/6;
 	grid-row: 2;
 }
+
+/* .form-container:nth-child(odd) {
+	grid-row: 4;
+} */
 
 input {
 	background: black;
@@ -81,8 +85,8 @@ input {
 }
 
 .err {
-	rid-column: 2/5;
+	grid-column: 2/6;
 	grid-row: 3;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }

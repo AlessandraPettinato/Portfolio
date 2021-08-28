@@ -15,19 +15,21 @@ export default function UserInput() {
 		handleChangeInput,
 		handleClickInput,
 		showComponent,
+		showError,
 	} = HandleInput();
 
 	return (
 		<>
-			<form onSubmit={(e) => handleClickInput(e)}>
-				<input
-					className={blinking ? "blinking" : "stop-blinking"}
-					value={values.userInput}
-					onChange={handleChangeInput}
-					disabled={disabled}
-				/>
-			</form>
-
+			<div className="form-container">
+				<form onSubmit={(e) => handleClickInput(e)}>
+					<input
+						className={!blinking ? "blinking" : "stop-blinking"}
+						value={values.userInput}
+						onChange={handleChangeInput}
+						disabled={!blinking ? disabled : disabled}
+					/>
+				</form>
+			</div>
 			{showComponent && values.userInput === "nano resume" ? <Resume /> : null}
 
 			{showComponent && values.userInput === "nano bright flash" ? (
@@ -40,12 +42,11 @@ export default function UserInput() {
 
 			{showComponent && values.userInput === "nano dravo" ? <Dravo /> : null}
 
-			{showComponent &&
-				values.userInput !==
-					("nano resume" ||
-						"nano bright flash" ||
-						"nano space coachella" ||
-						"nano dravo") && <p className="err">{errorHandling.message}</p>}
+			{showError ? (
+				<p className="err">
+					{values.userInput}: {errorHandling.message}
+				</p>
+			) : null}
 		</>
 	);
 }

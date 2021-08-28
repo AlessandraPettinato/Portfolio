@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 
+import HandleInput from "./controllers/HandleInput";
 import UserInput from "./controllers/UserInput";
+import NewInput from "./controllers/NewInput";
 
 export default function Terminal() {
+	const { showComponent, newInput, typed, values, handleClickInput } =
+		HandleInput();
+
 	const date = new Date().toDateString().slice(0, 10);
 	const hours = new Date().getHours();
 	const minutes = new Date().getMinutes();
@@ -20,6 +25,8 @@ export default function Terminal() {
 				<p className="user" text="/Users/visitor"></p>
 			</div>
 			<UserInput />
+
+			{newInput && <UserInput />}
 
 			{/* <p className="intro">
             Some cute words about me. Lorem ipsum dolor sit amet, consectetur

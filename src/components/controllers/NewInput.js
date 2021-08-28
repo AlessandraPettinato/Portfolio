@@ -1,40 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
+import HandleInput from "./HandleInput";
 
-export default function newInput({ setShowComponent }) {
-	const [blinking, setBlinking] = useState(true);
-
-	const [disabled, setDisabled] = useState(false);
-
-	const [newInput, setNewInput] = useState({
-		newUserInput: "",
-	});
-
-	const handleChangeNewInput = (e) => {
-		setBlinking(false);
-		setNewInput({
-			newUserInput: e.target.value.toLowerCase(),
-		});
-	};
-
-	const handleClickNewInput = (e) => {
-		e.preventDefault();
-		setShowComponent(true);
-		setDisabled(true);
-	};
+export default function newInput() {
+	const {
+		values,
+		disabled,
+		blinking,
+		errorHandling,
+		handleChangeInput,
+		handleClickInput,
+		showComponent,
+	} = HandleInput();
 
 	return (
 		<>
-			<form
-				onSubmit={(e) => handleClickNewInput(e)}
-				style={{ gridColumn: "2/6", gridRow: "5" }}
-			>
-				<input
-					className={blinking ? "blinking" : "stop-blinking"}
-					value={newInput.newUserInput}
-					onChange={handleChangeNewInput}
-					disabled={disabled}
-				/>
-			</form>
+			<div className="form-container">
+				<form onSubmit={(e) => handleClickInput(e)}>
+					<input
+						className={blinking ? "blinking" : "stop-blinking"}
+						value={values.userInput}
+						onChange={handleChangeInput}
+						disabled={!blinking ? disabled : disabled}
+					/>
+				</form>
+			</div>
 		</>
 	);
 }

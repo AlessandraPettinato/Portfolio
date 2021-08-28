@@ -7,25 +7,54 @@ export default function HandleInput() {
 
 	const [disabled, setDisabled] = useState(false);
 
-	const [blinking, setBlinking] = useState(true);
+	const [blinking, setBlinking] = useState(false);
 
 	const [showComponent, setShowComponent] = useState(false);
+
+	const [showError, setShowError] = useState(false);
+
+	const [newInput, setNewInput] = useState(false);
 
 	const [errorHandling] = useState({
 		message: "Command not found",
 	});
 
 	const handleChangeInput = (e) => {
-		setBlinking(false);
+		setBlinking(true);
 		setValues({
 			userInput: e.target.value.toLowerCase(),
 		});
 	};
 
+	const manageInput = () => {
+		switch (values.userInput) {
+			case "nano resume":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			case "nano space coachella":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			case "nano dravo":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			case "nano bright flash":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			default:
+				setShowComponent(false);
+				setShowError(true);
+		}
+	};
+
 	const handleClickInput = (e) => {
 		e.preventDefault();
-		setShowComponent(true);
 		setDisabled(true);
+		setNewInput(true);
+		manageInput();
 	};
 
 	return {
@@ -39,5 +68,9 @@ export default function HandleInput() {
 		handleChangeInput,
 		handleClickInput,
 		showComponent,
+		setShowComponent,
+		newInput,
+		showError,
+		setShowError,
 	};
 }
