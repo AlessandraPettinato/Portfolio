@@ -22,11 +22,9 @@ export default function Terminal() {
 			<div className="user-container">
 				<BsArrowRightShort className="arrow" />
 				<p className="tilde"> ~ </p>
-				<p className="user" text="/Users/visitor"></p>
+				<UserInput />
+				{newInput && <UserInput />}
 			</div>
-			<UserInput />
-
-			{newInput && <UserInput />}
 
 			{/* <p className="intro">
             Some cute words about me. Lorem ipsum dolor sit amet, consectetur

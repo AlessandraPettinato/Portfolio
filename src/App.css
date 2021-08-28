@@ -13,6 +13,13 @@
 	align-items: center;
 }
 
+.new-user-container {
+	grid-column: 2/9;
+	grid-row: 4;
+	display: flex;
+	align-items: center;
+}
+
 .user {
 	font-size: 1.5rem;
 	font-weight: bolder;
@@ -40,8 +47,8 @@
 	}
 }
 
-.stop-blinking {
-	display: hide;
+.hidden {
+	display: none;
 }
 
 .arrow {
@@ -52,20 +59,30 @@
 
 .tilde {
 	color: #40c5d1;
-	position: absolute;
-	left: 11rem;
-	top: 3.3rem;
 	font-size: 1.8rem;
+	margin-top: 0.5rem;
 }
 
 .form-container {
-	grid-column: 2/6;
-	grid-row: 2;
+	align-self: baseline;
+	grid-column: 3/9;
+	grid-row: 2/5;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
-/* .form-container:nth-child(odd) {
-	grid-row: 4;
-} */
+.new-form-container {
+	grid-column: 2/6;
+	grid-row: 4/6;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2rem 2rem 5rem;
+}
+
+form {
+	grid-column: 1;
+}
 
 input {
 	background: black;
@@ -73,8 +90,6 @@ input {
 	color: white;
 	font-family: "Cutive Mono", monospace;
 	font-size: 1.5rem;
-	position: absolute;
-	left: 13rem;
 }
 
 .intro {
@@ -85,8 +100,8 @@ input {
 }
 
 .err {
-	grid-column: 2/6;
-	grid-row: 3;
 	color: white;
 	font-size: 1.3rem;
+	grid-row: 2;
+	align-self: center;
 }

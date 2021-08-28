@@ -16,11 +16,12 @@ export default function UserInput() {
 		handleClickInput,
 		showComponent,
 		showError,
+		newInput,
 	} = HandleInput();
 
 	return (
 		<>
-			<div className="form-container">
+			<div className={"form-container"}>
 				<form onSubmit={(e) => handleClickInput(e)}>
 					<input
 						className={!blinking ? "blinking" : "stop-blinking"}
@@ -29,24 +30,26 @@ export default function UserInput() {
 						disabled={!blinking ? disabled : disabled}
 					/>
 				</form>
+				{showComponent && values.userInput === "nano resume" ? (
+					<Resume />
+				) : null}
+
+				{showComponent && values.userInput === "nano bright flash" ? (
+					<BrightFlash />
+				) : null}
+
+				{showComponent && values.userInput === "nano space coachella" ? (
+					<SpaceCoachella />
+				) : null}
+
+				{showComponent && values.userInput === "nano dravo" ? <Dravo /> : null}
+
+				{showError ? (
+					<p className="err">
+						{values.userInput}: {errorHandling.message}
+					</p>
+				) : null}
 			</div>
-			{showComponent && values.userInput === "nano resume" ? <Resume /> : null}
-
-			{showComponent && values.userInput === "nano bright flash" ? (
-				<BrightFlash />
-			) : null}
-
-			{showComponent && values.userInput === "nano space coachella" ? (
-				<SpaceCoachella />
-			) : null}
-
-			{showComponent && values.userInput === "nano dravo" ? <Dravo /> : null}
-
-			{showError ? (
-				<p className="err">
-					{values.userInput}: {errorHandling.message}
-				</p>
-			) : null}
 		</>
 	);
 }
