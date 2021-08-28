@@ -30,27 +30,22 @@ export default function HandleInput() {
 		switch (values.userInput) {
 			case "nano resume":
 				setShowComponent(true);
-				setNewInput(false);
 				setShowError(false);
 				break;
 			case "nano space coachella":
 				setShowComponent(true);
-				setNewInput(false);
 				setShowError(false);
 				break;
 			case "nano dravo":
 				setShowComponent(true);
-				setNewInput(false);
 				setShowError(false);
 				break;
 			case "nano bright flash":
 				setShowComponent(true);
-				setNewInput(false);
 				setShowError(false);
 				break;
 			default:
 				setShowComponent(false);
-				setNewInput(false);
 				setShowError(true);
 		}
 	};
@@ -58,6 +53,7 @@ export default function HandleInput() {
 	const handleClickInput = (e) => {
 		e.preventDefault();
 		setDisabled(true);
+		setNewInput(true);
 		manageInput();
 	};
 

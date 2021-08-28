@@ -1,4 +1,6 @@
 import React from "react";
+import { BsArrowRightShort } from "react-icons/bs";
+
 import HandleInput from "./HandleInput";
 
 import Resume from "../Resume";
@@ -21,7 +23,9 @@ export default function UserInput() {
 
 	return (
 		<>
-			<div className={"form-container"}>
+			<div className="form-container">
+				<BsArrowRightShort className="arrow" />
+				<p className="tilde"> ~ </p>
 				<form onSubmit={(e) => handleClickInput(e)}>
 					<input
 						className={!blinking ? "blinking" : "stop-blinking"}
@@ -50,6 +54,7 @@ export default function UserInput() {
 					</p>
 				) : null}
 			</div>
+			{newInput ? <UserInput /> : null}
 		</>
 	);
 }

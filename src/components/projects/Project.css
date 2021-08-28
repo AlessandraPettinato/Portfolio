@@ -1,6 +1,5 @@
 .project-container {
-	grid-column: 2/9;
-	grid-row: 3;
+	grid-column: 2/-1;
 }
 
 .project-title {
