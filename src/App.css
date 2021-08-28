@@ -14,29 +14,15 @@
 	flex-flow: column;
 }
 
-.new-user-container {
-	grid-column: 2/9;
-	grid-row: 4;
-	display: flex;
-	align-items: center;
-}
-
-.user {
-	font-size: 1.5rem;
-	font-weight: bolder;
-	color: white;
-	align-self: start;
-}
-
-.blinking {
+/* .blinking {
 	width: 10px;
 	height: 25px;
 	overflow: hidden;
 	-webkit-animation: blinking 1s infinite;
 	animation: blinking 1s infinite;
-}
+} */
 
-@keyframes blinking {
+/* @keyframes blinking {
 	0% {
 		background-color: transparent;
 	}
@@ -46,7 +32,7 @@
 	50% {
 		background-color: white;
 	}
-}
+} */
 
 .hidden {
 	display: none;
@@ -93,7 +79,12 @@ input {
 	color: white;
 	font-family: "Cutive Mono", monospace;
 	font-size: 1.5rem;
+	outline: none;
 }
+
+/* input:focus {
+	outline: none;
+} */
 
 .intro {
 	grid-column: 2/6;

@@ -28,7 +28,9 @@ export default function UserInput() {
 				<p className="tilde"> ~ </p>
 				<form onSubmit={(e) => handleClickInput(e)}>
 					<input
-						className={!blinking ? "blinking" : "stop-blinking"}
+						autoFocus
+						className="caret-block"
+						// className={!blinking ? "blinking" : "stop-blinking"}
 						value={values.userInput}
 						onChange={handleChangeInput}
 						disabled={!blinking ? disabled : disabled}
