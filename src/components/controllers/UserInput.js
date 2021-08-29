@@ -42,10 +42,10 @@ export default function UserInput() {
 				) : null}
 				{showComponent && values.userInput === "ls" ? (
 					<>
-						<p className="ls-resume">bio.txt</p>
-						<p className="ls-bright">bright-flash.txt</p>
-						<p className="ls-dravo">dravo.txt</p>
-						<p className="ls-space">space-coachella.txt</p>
+						<p className="ls-resume">bio</p>
+						<p className="ls-bright">bright-flash</p>
+						<p className="ls-dravo">dravo</p>
+						<p className="ls-space">space-coachella</p>
 					</>
 				) : null}
 

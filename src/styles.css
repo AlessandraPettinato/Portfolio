@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 body {
 	background-color: black;
-	font-family: "Cutive Mono", monospace;
+	font-family: "Inconsolata", monospace;
 }
 
 #root {

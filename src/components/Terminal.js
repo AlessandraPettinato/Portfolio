@@ -17,7 +17,7 @@ export default function Terminal() {
 				<UserInput />
 			</div>
 			<p className="cheatsheet">
-				*type <span>cheatsheet</span> if you don't know what to do ;)
+				*type <span>cheatsheet</span> if you're unsure on what to do ;)
 			</p>
 		</>
 	);

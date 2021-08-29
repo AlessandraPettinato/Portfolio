@@ -135,6 +135,7 @@ input {
 		grid-column: 1/-1;
 		font-size: 1.2rem;
 		text-align: left;
+		line-height: 1.8rem;
 	}
 
 	.user-container {
