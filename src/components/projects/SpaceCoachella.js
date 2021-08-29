@@ -4,19 +4,19 @@ import "./Project.css";
 
 export default function SpaceCoachella() {
 	return (
-		<div className="project-container">
+		<section className="project-container">
 			<h2 className="project-title">
 				<span>Space Coachella</span>
 			</h2>
 
-			<div className="left">
+			<aside className="left">
 				<img
 					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630242340/Untitled_design_1_ciwqkv.svg"
 					alt="mobile/web app preview of Space Coachella"
 				/>
-			</div>
+			</aside>
 
-			<div className="right">
+			<aside className="right">
 				<span className="github">
 					<a
 						target="_blank"
@@ -35,7 +35,7 @@ export default function SpaceCoachella() {
 						WEBSITE
 					</a>
 				</span>
-			</div>
+			</aside>
 			<p className="project-descr">
 				On Mars, the party never stops! Come see what the two rovers, Ginny and
 				Percy, are up to!
@@ -55,6 +55,6 @@ export default function SpaceCoachella() {
 				</span>
 				.
 			</p>
-		</div>
+		</section>
 	);
 }

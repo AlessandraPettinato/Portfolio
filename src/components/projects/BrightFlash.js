@@ -4,18 +4,18 @@ import "./Project.css";
 
 export default function BrightFlash() {
 	return (
-		<div className="project-container">
+		<section className="project-container">
 			<h2 className="project-title">
 				<span>Bright Flash</span>
 			</h2>
 
-			<div className="left">
+			<aside className="left">
 				<img
 					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630240534/Bright%20Flash/Untitled_design_bdvorz.svg"
 					alt="mobile/web app preview of Bright Flash"
 				/>
-			</div>
-			<div className="right">
+			</aside>
+			<aside className="right">
 				{" "}
 				<span className="github">
 					<a
@@ -35,7 +35,7 @@ export default function BrightFlash() {
 						WEBSITE
 					</a>
 				</span>
-			</div>
+			</aside>
 			<p className="project-descr">
 				The contributions of women to the advancement of science, the
 				improvement of society and the care of our communities have always been
@@ -47,6 +47,6 @@ export default function BrightFlash() {
 				about and remember the names and contributions of these pioneering
 				women.
 			</p>
-		</div>
+		</section>
 	);
 }

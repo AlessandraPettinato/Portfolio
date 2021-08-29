@@ -4,7 +4,7 @@ import "./Resume.css";
 
 export default function Resume() {
 	return (
-		<div className="resume-container">
+		<section className="resume-container">
 			<p className="resume-text">
 				Hey there! This is (again) <span>Alessandra</span>.<br></br>
 				<br></br>A few words about me: I was born in a small town in southern
@@ -40,6 +40,6 @@ export default function Resume() {
 				<span> never-ending learning</span> that drives me through. It is a new
 				journey, and a long one, but I'm up for the challenge!
 			</p>
-		</div>
+		</section>
 	);
 }

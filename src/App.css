@@ -1,6 +1,9 @@
-.login {
+header {
 	grid-column: 2/9;
 	grid-row: 1;
+}
+
+.login {
 	color: white;
 	align-self: center;
 	font-size: 1.5rem;
@@ -16,8 +19,6 @@
 .cheatsheet {
 	color: white;
 	font-size: 1rem;
-	grid-column: 2/9;
-	grid-row: -1;
 }
 
 .cheatsheet-container {
@@ -130,19 +131,22 @@ input {
 	grid-column: 2/4;
 }
 
+footer {
+	grid-column: 2/9;
+	grid-row: -1;
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-	.login {
+	header {
 		grid-column: 1/-1;
+	}
+	.login {
 		font-size: 1.2rem;
 		text-align: left;
 		line-height: 1.8rem;
 	}
 
 	.user-container {
-		grid-column: 1/-1;
-	}
-
-	.cheatsheet {
 		grid-column: 1/-1;
 	}
 
@@ -158,11 +162,22 @@ input {
 		margin: 0.5rem;
 	}
 
+	.ls-resume,
+	.ls-bright,
+	.ls-space,
+	.ls-dravo {
+		font-size: 1.2rem;
+	}
+
 	input {
 		font-size: 1.2rem;
 	}
 
 	.err {
 		font-size: 1.2rem;
+	}
+
+	footer {
+		grid-column: 1/-1;
 	}
 }
