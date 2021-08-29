@@ -5,7 +5,7 @@ import "./Resume.css";
 export default function Resume() {
 	return (
 		<div className="resume-container">
-			<p className="resume-title">
+			<p className="resume-text">
 				Hey there! This is (again) <span>Alessandra</span>.<br></br>
 				<br></br>A few words about me: I was born in a small town in southern
 				Italy, but relocated to Rome as soon as I was 18.
@@ -33,7 +33,10 @@ export default function Resume() {
 				<br></br>
 				There, I learnt everything I needed to know regarding how to build web
 				and mobile apps using the latest tech stack (
-				<span>MySql, Express, React, Node.js</span>) while following the
+				<span>
+					MySql, Express, <br /> React, Node.js
+				</span>
+				) while following the
 				<span>SCRUM methodology</span>.<br></br>
 				<br></br>
 				The boot camp gave me a structure, but it's my passion for

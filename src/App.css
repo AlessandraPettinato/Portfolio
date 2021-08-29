@@ -129,3 +129,35 @@ input {
 	font-size: 1.3rem;
 	grid-column: 2/4;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+	.login {
+		grid-column: 1/-1;
+		font-size: 1.2rem;
+		text-align: left;
+	}
+
+	.user-container {
+		grid-column: 1/-1;
+	}
+
+	.cheatsheet {
+		grid-column: 1/-1;
+	}
+
+	.cheatsheet-container {
+		grid-column: 1/-1;
+	}
+
+	.cheat-text {
+		font-size: 1.2rem;
+	}
+
+	.form-container {
+		margin: 0.5rem;
+	}
+
+	input {
+		font-size: 1.2rem;
+	}
+}
