@@ -12,13 +12,19 @@ export default function Terminal() {
 
 	return (
 		<>
-			<p className="login">Last login: {login} on Alessandra Pettinato</p>
+			<header>
+				<p className="login">
+					Last login: <time>{login}</time> on Alessandra Pettinato
+				</p>
+			</header>
 			<div className="user-container">
 				<UserInput />
 			</div>
-			<p className="cheatsheet">
-				*type <span>cheatsheet</span> if you're unsure on what to do ;)
-			</p>
+			<footer>
+				<p className="cheatsheet">
+					*type <span>cheatsheet</span> if you're unsure on what to do ;)
+				</p>
+			</footer>
 		</>
 	);
 }

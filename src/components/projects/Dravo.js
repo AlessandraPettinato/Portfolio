@@ -4,19 +4,19 @@ import "./Project.css";
 
 export default function Dravo() {
 	return (
-		<div className="project-container">
+		<section className="project-container">
 			<h2 className="project-title">
 				<span>Dravo</span>
 			</h2>
 
-			<div className="left">
+			<aside className="left">
 				<img
 					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630244294/Bright%20Flash/Untitled_design_2_bbpfib.svg"
 					alt="mobile/web app preview of Dravo"
 				/>
-			</div>
+			</aside>
 
-			<div className="right">
+			<aside className="right">
 				<span className="github">
 					<a
 						target="_blank"
@@ -35,7 +35,7 @@ export default function Dravo() {
 						BACK-END GITHUB
 					</a>
 				</span>
-			</div>
+			</aside>
 			<p className="project-descr">
 				Dravo is a social media network for beekeepers.
 				<br></br>
@@ -43,6 +43,6 @@ export default function Dravo() {
 				The project was created in collaboration with two Junior Developers and
 				it's full-stack.
 			</p>
-		</div>
+		</section>
 	);
 }
