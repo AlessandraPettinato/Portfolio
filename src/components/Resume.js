@@ -33,15 +33,12 @@ export default function Resume() {
 				<br></br>
 				There, I learnt everything I needed to know regarding how to build web
 				and mobile apps using the latest tech stack (
-				<span>
-					MySql, Express, <br /> React, Node.js
-				</span>
-				) while following the
-				<span>SCRUM methodology</span>.<br></br>
+				<span>MySql, Express, React, Node.js</span>) while following the
+				<span> SCRUM methodology</span>.<br></br>
 				<br></br>
 				The boot camp gave me a structure, but it's my passion for
 				<span> never-ending learning</span> that drives me through. It is a new
-				journey, and a long one, but I'm up for the challenge.
+				journey, and a long one, but I'm up for the challenge!
 			</p>
 		</div>
 	);

@@ -7,9 +7,10 @@ export default function Cheatsheet() {
 				<p className="cheat-text">
 					Hello there and welcome to my <span>portfolio</span>! My name is
 					<span> Alessandra Pettinato</span> but it’s such a long name that I’d
-					rather you call me <span>Sandra</span>:)<br></br>
+					rather you call me <span>Sandra</span>
 					<br></br>
-					If you haven’t figure out yet, this app is based on the Mac’s
+					<br></br>
+					If you haven’t figure out yet, this app is mimicking the Mac’s
 					terminal. You can navigate through it using some basic commands.
 					<br></br>
 					<br></br>
@@ -24,13 +25,13 @@ export default function Cheatsheet() {
 				<ul>
 					<li>
 						<p className="cheat-text">
-							<span>ls</span> shows the content of the folder;
+							<span>ls </span>shows the content of the folder;
 						</p>
 					</li>
 					<li>
 						<p className="cheat-text">
 							{" "}
-							<span>nano</span>, used before the name of a file, reveals its
+							<span>nano</span>, followed by the name of a file, reveals its
 							content.
 						</p>
 					</li>
