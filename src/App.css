@@ -160,4 +160,8 @@ input {
 	input {
 		font-size: 1.2rem;
 	}
+
+	.err {
+		font-size: 1.2rem;
+	}
 }
