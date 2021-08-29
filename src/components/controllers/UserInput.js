@@ -7,7 +7,7 @@ import Resume from "../Resume";
 import BrightFlash from "../projects/BrightFlash";
 import SpaceCoachella from "../projects/SpaceCoachella";
 import Dravo from "../projects/Dravo";
-import Cheatsheet from "../projects/Cheatsheet";
+import Cheatsheet from "../Cheatsheet";
 
 export default function UserInput() {
 	const {
