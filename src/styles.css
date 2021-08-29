@@ -22,7 +22,7 @@ body {
 	#root {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 0.1fr 10fr 0.1fr;
+		grid-template-rows: 0.1fr 14fr 0.1fr;
 		grid-gap: 0;
 	}
 }
