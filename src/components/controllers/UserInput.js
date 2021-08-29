@@ -7,6 +7,7 @@ import Resume from "../Resume";
 import BrightFlash from "../projects/BrightFlash";
 import SpaceCoachella from "../projects/SpaceCoachella";
 import Dravo from "../projects/Dravo";
+import Cheatsheet from "../projects/Cheatsheet";
 
 export default function UserInput() {
 	const {
@@ -36,12 +37,15 @@ export default function UserInput() {
 						disabled={!blinking ? disabled : disabled}
 					/>
 				</form>
+				{showComponent && values.userInput === "cheatsheet" ? (
+					<Cheatsheet />
+				) : null}
 				{showComponent && values.userInput === "ls" ? (
 					<>
-						<p className="ls-resume">bio</p>
-						<p className="ls-bright">bright-flash</p>
-						<p className="ls-dravo">dravo</p>
-						<p className="ls-space">space-coachella</p>
+						<p className="ls-resume">bio.txt</p>
+						<p className="ls-bright">bright-flash.txt</p>
+						<p className="ls-dravo">dravo.txt</p>
+						<p className="ls-space">space-coachella.txt</p>
 					</>
 				) : null}
 
@@ -63,6 +67,7 @@ export default function UserInput() {
 					</p>
 				) : null}
 			</div>
+
 			{newInput ? <UserInput /> : null}
 		</>
 	);

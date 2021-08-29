@@ -18,9 +18,11 @@ export default function Terminal() {
 			<p className="login">Last login: {login} on Alessandra Pettinato</p>
 			<div className="user-container">
 				<UserInput />
+				<p className="cheatsheet">
+					* type <span>cheatsheet</span> if you don't know what to do
+				</p>
 			</div>
 
-			{clearTerminal ? <Terminal /> : null}
 			{/* <p className="intro">
             Some cute words about me. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Donec magna felis, tempor tempus sodales eu, laoreet

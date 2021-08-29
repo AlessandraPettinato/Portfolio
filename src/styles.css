@@ -14,6 +14,6 @@ body {
 #root {
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
-	grid-template-rows: 70px 50px 220px 1fr 30px 60px;
+	grid-template-rows: 70px 50px 220px 1fr 30px 1fr;
 	grid-gap: 0.5rem;
 }

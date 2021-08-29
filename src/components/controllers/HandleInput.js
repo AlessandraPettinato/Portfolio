@@ -15,8 +15,6 @@ export default function HandleInput() {
 
 	const [newInput, setNewInput] = useState(false);
 
-	const [clearTerminal, setClearTerminal] = useState(false);
-
 	const [errorHandling] = useState({
 		message: "Command not found",
 	});
@@ -30,6 +28,10 @@ export default function HandleInput() {
 
 	const manageInput = () => {
 		switch (values.userInput) {
+			case "cheatsheet":
+				setShowComponent(true);
+				setShowError(false);
+				break;
 			case "nano bio":
 				setShowComponent(true);
 				setShowError(false);
@@ -50,8 +52,6 @@ export default function HandleInput() {
 				setShowComponent(true);
 				setShowError(false);
 				break;
-			case "clear":
-				setClearTerminal(true);
 			default:
 				setShowComponent(false);
 				setShowError(true);
@@ -80,6 +80,5 @@ export default function HandleInput() {
 		newInput,
 		showError,
 		setShowError,
-		clearTerminal,
 	};
 }
