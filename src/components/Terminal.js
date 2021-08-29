@@ -1,6 +1,5 @@
 import React from "react";
 
-import HandleInput from "./controllers/HandleInput";
 import UserInput from "./controllers/UserInput";
 
 export default function Terminal() {
@@ -18,7 +17,7 @@ export default function Terminal() {
 				<UserInput />
 			</div>
 			<p className="cheatsheet">
-				*type <span>cheatsheet</span> if you don't know what to do
+				*type <span>cheatsheet</span> if you don't know what to do ;)
 			</p>
 		</>
 	);

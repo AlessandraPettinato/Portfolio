@@ -6,9 +6,8 @@ export default function Cheatsheet() {
 			<div className="cheatsheet-container">
 				<p className="cheat-text">
 					Hello there and welcome to my <span>portfolio</span>! My name is
-					Alessandra Pettinato, but it’s such a long name that I’d rather you
-					call me <span>Sandra</span> :)
-					<br></br>
+					<span> Alessandra Pettinato</span> but it’s such a long name that I’d
+					rather you call me <span>Sandra</span>:)<br></br>
 					<br></br>
 					If you haven’t figure out yet, this app is based on the Mac’s
 					terminal. You can navigate through it using some basic commands.
@@ -21,23 +20,25 @@ export default function Cheatsheet() {
 					Here’s a list of the available commands:
 				</p>
 				<br></br>
+
 				<ul>
 					<li>
 						<p className="cheat-text">
-							<span>ls</span>: show the content of the folder;
+							<span>ls</span> shows the content of the folder;
 						</p>
 					</li>
 					<li>
 						<p className="cheat-text">
 							{" "}
-							<span>nano</span>: open the file you are targeting;
+							<span>nano</span>, used before the name of a file, reveals its
+							content.
 						</p>
 					</li>
-					<li>
+					{/* <li>
 						<p className="cheat-text">
 							<span>clear</span>: clear the content of the console.
 						</p>
-					</li>
+					</li> */}
 				</ul>
 				<br></br>
 				<br></br>
