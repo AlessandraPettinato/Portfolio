@@ -36,15 +36,22 @@ export default function UserInput() {
 						disabled={!blinking ? disabled : disabled}
 					/>
 				</form>
-				{showComponent && values.userInput === "nano resume" ? (
-					<Resume />
+				{showComponent && values.userInput === "ls" ? (
+					<>
+						<p className="ls-resume">bio</p>
+						<p className="ls-bright">bright-flash</p>
+						<p className="ls-dravo">dravo</p>
+						<p className="ls-space">space-coachella</p>
+					</>
 				) : null}
 
-				{showComponent && values.userInput === "nano bright flash" ? (
+				{showComponent && values.userInput === "nano bio" ? <Resume /> : null}
+
+				{showComponent && values.userInput === "nano bright-flash" ? (
 					<BrightFlash />
 				) : null}
 
-				{showComponent && values.userInput === "nano space coachella" ? (
+				{showComponent && values.userInput === "nano space-coachella" ? (
 					<SpaceCoachella />
 				) : null}
 
