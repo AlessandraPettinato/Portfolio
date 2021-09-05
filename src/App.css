@@ -37,6 +37,11 @@ span {
 	white-space: nowrap;
 }
 
+.in-project {
+	color: #41c731;
+	white-space: nowrap;
+}
+
 /* .blinking {
 	width: 10px;
 	height: 25px;

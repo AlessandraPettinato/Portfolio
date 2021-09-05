@@ -38,10 +38,31 @@ export default function Dravo() {
 			</aside>
 			<p className="project-descr">
 				Dravo is a social media network for beekeepers.
-				<br></br>
-				<br></br>
-				The project was created in collaboration with two Junior Developers and
-				it's full-stack.
+				<br />
+				<br />
+				It was created as the final Full-stack project built during my time in{" "}
+				<span className="in-project">Wild Code School</span>, and it was
+				commissioned by a real client. The project was designed and developed by
+				three web developers.
+				<br />
+				<br />
+				Dravo is a side product of <span className="in-project">Beesage</span>,
+				a smart scale used for intelligent beekeeping. The MVP set by the client
+				was to allow beekeepers to have a{" "}
+				<span className="in-project">user profile</span>, load their
+				information, and then create a{" "}
+				<span className="in-project">leaderboard</span> made of the data
+				collected through the smart scale.
+				<br />
+				<br />
+				Guided by an experienced senior developer, we were able to design
+				ourselves the database, write queries, build the whole back-end routing
+				system with <span className="in-project">Express.js</span> and finally
+				display it to the front-end through React.
+				<br />
+				<br />
+				Every component of the front-end GitHub repository is also fully
+				documented.
 			</p>
 		</section>
 	);

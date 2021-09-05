@@ -37,15 +37,24 @@ export default function BrightFlash() {
 				</span>
 			</aside>
 			<p className="project-descr">
-				The contributions of women to the advancement of science, the
-				improvement of society and the care of our communities have always been
-				there. Too often they are forgotten or overlooked in history books.
-				<br></br>
-				<br></br>
-				The goal of this website is to give women back their rightful place in
-				history. By playing a game of memory cards, we hope that you will learn
-				about and remember the names and contributions of these pioneering
-				women.
+				Bright Flash is one of the projects built during my time in{" "}
+				<span className="in-project">Wild Code School</span>. The main goal of
+				the assignment was to learn how to fetch data from an API, and then
+				create a web app using <span className="in-project">React</span>.
+				<br />
+				<br />
+				The project was fueled by the creativity and endeavour of four web
+				developers, who contributed to every step of development (including
+				sketching up the design and creating wireframes and mockups).
+				<br />
+				<br />
+				What we all agreed on was to create an app that would highlight women's
+				contributions to the advancement of science. Rather than having merely a
+				teaching moment, we wanted to make the experience fun for the user: we
+				then decided to use a "gamification" approach and to create a{" "}
+				<span className="in-project">memory card game</span>.
+				<br />
+				<br />
 			</p>
 		</section>
 	);
