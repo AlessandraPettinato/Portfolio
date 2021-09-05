@@ -6,7 +6,7 @@ export default function Cheatsheet() {
 			<div className="cheatsheet-container">
 				<p className="cheat-text">
 					Hello there and welcome to my <span>portfolio</span>! My name is
-					<span> Alessandra Pettinato</span> a passionate Front-end developer
+					<span> Alessandra Pettinato</span>, a passionate Front-end developer
 					from Italy.
 					<br></br>
 					<br></br>

@@ -37,10 +37,13 @@ export default function UserInput() {
 						disabled={!blinking ? disabled : disabled}
 					/>
 				</form>
-				{showComponent && values.userInput === "cheatsheet" ? (
+				{showComponent &&
+				(values.userInput === "cheatsheet" ||
+					values.userInput === "cheatsheet ") ? (
 					<Cheatsheet />
 				) : null}
-				{showComponent && values.userInput === "ls" ? (
+				{showComponent &&
+				(values.userInput === "ls" || values.userInput === "ls ") ? (
 					<>
 						<p className="ls-resume">bio</p>
 						<p className="ls-bright">bright-flash</p>
@@ -49,17 +52,29 @@ export default function UserInput() {
 					</>
 				) : null}
 
-				{showComponent && values.userInput === "nano bio" ? <Resume /> : null}
+				{showComponent &&
+				(values.userInput === "nano bio" ||
+					values.userInput === "nano bio ") ? (
+					<Resume />
+				) : null}
 
-				{showComponent && values.userInput === "nano bright-flash" ? (
+				{showComponent &&
+				(values.userInput === "nano bright-flash" ||
+					values.userInput === "nano bright-flash ") ? (
 					<BrightFlash />
 				) : null}
 
-				{showComponent && values.userInput === "nano space-coachella" ? (
+				{showComponent &&
+				(values.userInput === "nano space-coachella" ||
+					values.userInput === "nano space-coachella ") ? (
 					<SpaceCoachella />
 				) : null}
 
-				{showComponent && values.userInput === "nano dravo" ? <Dravo /> : null}
+				{showComponent &&
+				(values.userInput === "nano dravo" ||
+					values.userInput === "nano dravo ") ? (
+					<Dravo />
+				) : null}
 
 				{showError ? (
 					<p className="err">

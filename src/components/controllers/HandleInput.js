@@ -32,7 +32,15 @@ export default function HandleInput() {
 				setShowComponent(true);
 				setShowError(false);
 				break;
+			case "cheatsheet ":
+				setShowComponent(true);
+				setShowError(false);
+				break;
 			case "nano bio":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			case "nano bio ":
 				setShowComponent(true);
 				setShowError(false);
 				break;
@@ -40,7 +48,16 @@ export default function HandleInput() {
 				setShowComponent(true);
 				setShowError(false);
 				break;
+			case "nano space-coachella ":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+
 			case "nano dravo":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			case "nano dravo ":
 				setShowComponent(true);
 				setShowError(false);
 				break;
@@ -48,7 +65,15 @@ export default function HandleInput() {
 				setShowComponent(true);
 				setShowError(false);
 				break;
+			case "nano bright-flash ":
+				setShowComponent(true);
+				setShowError(false);
+				break;
 			case "ls":
+				setShowComponent(true);
+				setShowError(false);
+				break;
+			case "ls ":
 				setShowComponent(true);
 				setShowError(false);
 				break;
