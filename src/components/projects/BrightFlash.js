@@ -37,7 +37,7 @@ export default function BrightFlash() {
 				</span>
 			</aside>
 			<p className="project-descr">
-				Bright Flash is one of the projects built during my time in{" "}
+				Bright Flash is one of the projects built during my time at the{" "}
 				<span className="in-project">Wild Code School</span>. The main goal of
 				the assignment was to learn how to fetch data from an API, and then
 				create a web app using <span className="in-project">React</span>.

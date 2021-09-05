@@ -6,8 +6,8 @@ export default function Cheatsheet() {
 			<div className="cheatsheet-container">
 				<p className="cheat-text">
 					Hello there and welcome to my <span>portfolio</span>! My name is
-					<span> Alessandra Pettinato</span> but it’s such a long name that I’d
-					rather you call me <span>Sandra</span>
+					<span> Alessandra Pettinato</span> a passionate Front-end developer
+					from Italy.
 					<br></br>
 					<br></br>
 					If you haven’t figure out yet, this app is mimicking the Mac’s
