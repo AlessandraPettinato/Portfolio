@@ -10,8 +10,6 @@ export default function Resume() {
 				<BsArrowRightShort className="arrow" />
 				<p className="tilde"> ~ </p>{" "}
 				<span style={{ color: "white", fontSize: "2rem" }}>ABOUT ME</span>
-				{/* <p className="welcome-message"> WELCOME TO MY PORTFOLIO</p> */}
-				{/* <span className="blinking" /> */}
 			</div>
 			<p className="resume-text">
 				Hello everyone! This is <span>Alessandra</span>.<br></br>

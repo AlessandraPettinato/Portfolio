@@ -42,26 +42,6 @@ span {
 	white-space: nowrap;
 }
 
-/* .blinking {
-	width: 10px;
-	height: 25px;
-	overflow: hidden;
-	-webkit-animation: blinking 1s infinite;
-	animation: blinking 1s infinite;
-}
-
-@keyframes blinking {
-	0% {
-		background-color: transparent;
-	}
-	49% {
-		background-color: transparent;
-	}
-	50% {
-		background-color: white;
-	}
-} */
-
 .hidden {
 	display: none;
 }
@@ -72,12 +52,6 @@ span {
 	align-self: center;
 	font-size: 1.5rem;
 }
-
-/* .tilde {
-	grid-column: 2;
-	color: #40c5d1;
-	font-size: 1.8rem;
-} */
 
 .form-container {
 	display: grid;
@@ -107,10 +81,6 @@ input {
 	font-size: 1.5rem;
 	outline: none;
 }
-
-/* input:focus {
-	outline: none;
-} */
 
 .intro {
 	grid-column: 2/6;
@@ -196,7 +166,7 @@ footer {
 }
 
 .all-projects-container {
-	grid-column: 2/9;
+	grid-column: 3/8;
 }
 
 .sandra {
@@ -210,36 +180,6 @@ footer {
 	grid-gap: 0.5rem;
 	align-items: center;
 	margin-top: 2rem;
-}
-
-.welcome-message {
-	color: white;
-	font-size: 1.5rem;
-	grid-column: 2/5;
-	grid-row: 1;
-}
-
-.blinking {
-	grid-column: 4;
-	grid-row: 1;
-	margin-left: 1.2rem;
-	width: 10px;
-	height: 25px;
-	overflow: hidden;
-	-webkit-animation: blinking 1s infinite;
-	animation: blinking 1s infinite;
-}
-
-@keyframes blinking {
-	0% {
-		background-color: transparent;
-	}
-	49% {
-		background-color: transparent;
-	}
-	50% {
-		background-color: white;
-	}
 }
 
 .tilde {

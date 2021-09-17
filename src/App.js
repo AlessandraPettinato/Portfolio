@@ -12,10 +12,6 @@ export default function App() {
 		<>
 			{/* <Terminal /> */}
 			<AllProjects />
-			<Resume />
-			<BrightFlash />
-			<Dravo />
-			<SpaceCoachella />
 		</>
 	);
 }
