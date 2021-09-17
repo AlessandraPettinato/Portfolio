@@ -15,12 +15,12 @@
 	grid-column: 1/-1;
 }
 
-.left {
+.image {
 	grid-column: 1/2;
 	grid-row: 2;
 }
 
-.right {
+.links {
 	grid-column: 3;
 	grid-row: 2;
 	display: flex;
@@ -31,8 +31,8 @@
 	text-decoration: underline;
 }
 
-.left,
-.right {
+.image,
+.links {
 	border: 5px double #40c5d1;
 	padding: 1rem;
 }
@@ -53,7 +53,7 @@ img {
 a {
 	text-decoration: none;
 	font-size: 2rem;
-	color: #40c5d1;
+	color: #41c731;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {

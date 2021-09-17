@@ -13,30 +13,30 @@ export default function Dravo() {
 			</div>
 
 			<div className="content-container">
-				<aside className="left">
+				<aside className="image">
 					<img
 						src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630244294/Bright%20Flash/Untitled_design_2_bbpfib.svg"
 						alt="mobile/web app preview of Dravo"
 					/>
 				</aside>
 
-				<aside className="right">
+				<aside className="links">
 					<span className="github">
 						<a
 							target="_blank"
 							href="https://github.com/beesage/dravo"
 							rel="noopener noreferrer"
 						>
-							FRONT-END GITHUB
+							FRONT-END GITHUB REPO
 						</a>
 					</span>
-					<span className="website">
+					<span className="github">
 						<a
 							target="_blank"
 							href="https://github.com/AlessandraPettinato/beesage-api"
 							rel="noopener noreferrer"
 						>
-							BACK-END GITHUB
+							BACK-END GITHUB REPO
 						</a>
 					</span>
 				</aside>

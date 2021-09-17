@@ -14,21 +14,21 @@ export default function SpaceCoachella() {
 				</span>
 			</div>
 			<div className="content-container">
-				<aside className="left">
+				<aside className="image">
 					<img
 						src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630242340/Untitled_design_1_ciwqkv.svg"
 						alt="mobile/web app preview of Space Coachella"
 					/>
 				</aside>
 
-				<aside className="right">
+				<aside className="links">
 					<span className="github">
 						<a
 							target="_blank"
 							href="https://github.com/AlessandraPettinato/Space-Coachella"
 							rel="noopener noreferrer"
 						>
-							GITHUB
+							GITHUB REPO
 						</a>
 					</span>
 					<span className="website">

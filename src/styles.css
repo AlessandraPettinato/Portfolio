@@ -14,7 +14,6 @@ body {
 /* #root {
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
-	grid-template-rows: 0.1fr 18fr 0.1fr;
 	grid-gap: 0.5rem;
 } */
 
@@ -22,7 +21,6 @@ body {
 	#root {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 0.1fr 9.5fr 0.1fr;
 		grid-gap: 0;
 	}
 }
