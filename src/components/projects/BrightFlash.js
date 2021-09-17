@@ -13,33 +13,35 @@ export default function BrightFlash() {
 			</div>
 
 			<div className="content-container">
-				<aside className="image">
-					<img
-						src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630240534/Bright%20Flash/Untitled_design_bdvorz.svg"
-						alt="mobile/web app preview of Bright Flash"
-					/>
-				</aside>
-				<aside className="links">
-					{" "}
-					<span className="github">
-						<a
-							target="_blank"
-							href="https://github.com/AlessandraPettinato/Bright-Flash"
-							rel="noopener noreferrer"
-						>
-							GITHUB REPO
-						</a>
-					</span>
-					<span className="website">
-						<a
-							target="_blank"
-							href="https://bright-flash.herokuapp.com/"
-							rel="noopener noreferrer"
-						>
-							WEBSITE
-						</a>
-					</span>
-				</aside>
+				<div className="image-link-container">
+					<aside className="image">
+						<img
+							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630240534/Bright%20Flash/Untitled_design_bdvorz.svg"
+							alt="mobile/web app preview of Bright Flash"
+						/>
+					</aside>
+					<aside className="links">
+						{" "}
+						<span className="github">
+							<a
+								target="_blank"
+								href="https://github.com/AlessandraPettinato/Bright-Flash"
+								rel="noopener noreferrer"
+							>
+								GITHUB REPO
+							</a>
+						</span>
+						<span className="website">
+							<a
+								target="_blank"
+								href="https://bright-flash.herokuapp.com/"
+								rel="noopener noreferrer"
+							>
+								WEBSITE
+							</a>
+						</span>
+					</aside>
+				</div>
 				<p className="project-descr">
 					Bright Flash is one of the projects built during my time at the{" "}
 					<span className="in-project">Wild Code School</span>. The main goal of
