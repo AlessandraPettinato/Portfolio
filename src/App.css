@@ -1,3 +1,24 @@
+/* ALL PROJECTS CSS */
+.all-projects-container {
+	grid-column: 3/8;
+}
+
+.tilde-blink-container {
+	display: grid;
+	grid-template-columns: 0.01fr 0.01fr 0.3fr 0.1fr 0.01fr;
+	grid-template-rows: 0.1fr;
+	grid-gap: 0.5rem;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.tilde {
+	grid-column: 2;
+	grid-row: 1;
+	color: #40c5d1;
+	font-size: 1.8rem;
+}
+
 header {
 	grid-column: 2/9;
 	grid-row: 1;
@@ -112,9 +133,18 @@ footer {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-	header {
-		grid-column: 1/-1;
+	.project-container {
+		display: block;
 	}
+
+	.all-projects-container {
+		grid-column: 1;
+	}
+
+	.tilde-blink-container {
+		margin-bottom: 1rem;
+	}
+
 	.login {
 		font-size: 1.2rem;
 		text-align: left;
@@ -155,35 +185,4 @@ footer {
 	footer {
 		grid-column: 1/-1;
 	}
-}
-
-/* ALL PROJECTS CSS */
-#root {
-	display: grid;
-	grid-template-columns: repeat(9, 0.5fr);
-	grid-gap: 0.5rem;
-}
-
-.all-projects-container {
-	grid-column: 3/8;
-}
-
-.sandra {
-	color: white;
-}
-
-.tilde-blink-container {
-	display: grid;
-	grid-template-columns: 0.01fr 0.01fr 0.3fr 0.1fr 0.01fr;
-	grid-template-rows: 0.1fr;
-	grid-gap: 0.5rem;
-	align-items: center;
-	margin-top: 2rem;
-}
-
-.tilde {
-	grid-column: 2;
-	grid-row: 1;
-	color: #40c5d1;
-	font-size: 1.8rem;
 }

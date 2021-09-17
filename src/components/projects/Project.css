@@ -1,9 +1,9 @@
-/* .project-container {
-	grid-column: 2/-1;
+.project-container {
+	grid-column: 2/8;
 	display: grid;
 	grid-template-columns: 0.1fr 2fr 2fr;
 	margin-top: 1rem;
-} */
+}
 
 .project-title {
 	color: white;
@@ -64,16 +64,15 @@ a {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+	.image-link-container {
+		display: block;
+	}
+
 	.ls-resume,
 	.ls-bright,
 	.ls-space,
 	.ls-dravo {
 		font-size: 1.2rem;
-	}
-
-	.project-container {
-		grid-template-rows: 0.1fr 0.1fr 0.5fr 1fr;
-		grid-column: 1/-1;
 	}
 
 	.project-title {
@@ -109,13 +108,4 @@ a {
 		text-align: justify;
 		text-justify: inter-word;
 	}
-}
-
-/* ALL PROJECT CSS */
-
-.project-container {
-	grid-column: 2/8;
-	display: grid;
-	grid-template-columns: 0.1fr 2fr 2fr;
-	margin-top: 1rem;
 }

@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap");
 
+#root {
+	display: grid;
+	grid-template-columns: repeat(9, 0.5fr);
+	grid-gap: 0.5rem;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0.2rem;
@@ -11,16 +17,13 @@ body {
 	font-family: "Inconsolata", monospace;
 }
 
-/* #root {
-	display: grid;
-	grid-template-columns: repeat(9, 1fr);
-	grid-gap: 0.5rem;
-} */
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 	#root {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 0;
+		grid-template-columns: 1fr;
+		margin: 1rem;
+	}
+
+	* {
+		margin: 0rem;
 	}
 }
