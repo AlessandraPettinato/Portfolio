@@ -1,12 +1,18 @@
 import React from "react";
+import { BsArrowRightShort } from "react-icons/bs";
 
 import "./Resume.css";
 
 export default function Resume() {
 	return (
 		<section className="resume-container">
+			<div className="tilde-blink-container">
+				<BsArrowRightShort className="arrow" />
+				<p className="tilde"> ~ </p>{" "}
+				<span style={{ color: "white", fontSize: "2rem" }}>ABOUT ME</span>
+			</div>
 			<p className="resume-text">
-				Hey there! This is (again) <span>Alessandra</span>.<br></br>
+				Hello everyone! This is <span>Alessandra</span>.<br></br>
 				<br></br>A few words about me: I was born in a small town in southern
 				Italy, but relocated to Rome as soon as I was 18.
 				<br></br>
@@ -16,19 +22,8 @@ export default function Resume() {
 				was interested in linguistics, writing, and art -and still am.
 				<br></br>
 				<br></br>
-				The reason why I began dipping my toes into software development mostly
-				relies on
-				<span> Uncreative Writing</span>, a book by American poet and critic
-				Kenneth Goldsmith.
-				<br></br>
-				<br></br>
-				The essay advocates for the intersection of traditional literature with
-				programming, while praising those artistic practices which are deemed
-				"unoriginal".
-				<br></br>
-				<br></br>I was so star struck that I had to delve into coding, and thus
-				decided to enrol in the <span>Wild Code School</span>'s boot camp at the
-				start of 2021.
+				At the start of 2021 I decided to enrol in the{" "}
+				<span>Wild Code School</span>'s boot camp.
 				<br></br>
 				<br></br>
 				There, I learnt everything I needed to know regarding how to build web

@@ -1,15 +1,28 @@
-.resume-container {
+/* .resume-container {
 	grid-column: 2/-1;
+} */
+
+/* .resume-text {
+	color: white;
+	font-size: 1.3rem;
+} */
+
+/* ALL PROJECTS CSS */
+.resume-container {
+	grid-column: 2/8;
 }
 
 .resume-text {
 	color: white;
 	font-size: 1.3rem;
+	text-align: justify;
+	border: 5px double #40c5d1;
+	padding: 1rem;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 	.resume-container {
-		grid-column: 1/-1;
+		grid-column: 1/4;
 	}
 
 	.resume-text {
