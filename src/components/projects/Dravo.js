@@ -48,17 +48,18 @@ export default function Dravo() {
 				<br />
 				Dravo is a side product of <span className="in-project">Beesage</span>,
 				a smart scale used for intelligent beekeeping. The MVP set by the client
-				was to allow beekeepers to have a{" "}
-				<span className="in-project">user profile</span>, load and update their
-				information, and then create a{" "}
-				<span className="in-project">leaderboard</span> made of the data
+				was to allow beekeepers to have a
+				<span className="in-project"> user profile</span>, load and update their
+				information, and then create a
+				<span className="in-project"> leaderboard</span> made of the data
 				collected through the smart scale.
 				<br />
 				<br />
 				Guided by an experienced senior developer, we were able to design
 				ourselves the database, write queries, build the whole back-end routing
 				system with <span className="in-project">Express.js</span> and finally
-				display it to the front-end through React.
+				display it to the front-end through
+				<span className="in-project"> React</span>.
 				<br />
 				<br />
 				Every component of the front-end GitHub repository is also fully
