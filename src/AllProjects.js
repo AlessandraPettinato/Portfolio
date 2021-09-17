@@ -3,6 +3,7 @@ import Resume from "./components/Resume";
 import BrightFlash from "./components/projects/BrightFlash";
 import Dravo from "./components/projects/Dravo";
 import SpaceCoachella from "./components/projects/SpaceCoachella";
+import Stopwatch from "./components/projects/Stopwatch";
 
 export default function AllProjects() {
 	const date = new Date().toDateString().slice(0, 10);
@@ -15,14 +16,15 @@ export default function AllProjects() {
 		<div className="all-projects-container">
 			<header>
 				<p className="login">
-					Last login: <time>{login}</time> on Alessandra Pettinato's{" "}
-					<span style={{ color: "#41c731" }}>Portofolio</span>
+					Last login: <time>{login}</time> on Alessandra Pettinato's {""}
+					<span style={{ color: "#41c731" }}> Portofolio</span>
 				</p>
 			</header>
 			<Resume />
 			<BrightFlash />
 			<Dravo />
 			<SpaceCoachella />
+			<Stopwatch />
 		</div>
 	);
 }
