@@ -13,11 +13,13 @@
 
 .image-link-container {
 	display: flex;
+	margin: 0;
 }
 
 .content-container {
 	grid-column: 1/-1;
 	border: 5px double #40c5d1;
+	margin: 0;
 }
 
 .image {
