@@ -13,33 +13,35 @@ export default function Dravo() {
 			</div>
 
 			<div className="content-container">
-				<aside className="image">
-					<img
-						src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630244294/Bright%20Flash/Untitled_design_2_bbpfib.svg"
-						alt="mobile/web app preview of Dravo"
-					/>
-				</aside>
+				<div className="image-link-container">
+					<aside className="image">
+						<img
+							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630244294/Bright%20Flash/Untitled_design_2_bbpfib.svg"
+							alt="mobile/web app preview of Dravo"
+						/>
+					</aside>
 
-				<aside className="links">
-					<span className="github">
-						<a
-							target="_blank"
-							href="https://github.com/beesage/dravo"
-							rel="noopener noreferrer"
-						>
-							FRONT-END GITHUB REPO
-						</a>
-					</span>
-					<span className="github">
-						<a
-							target="_blank"
-							href="https://github.com/AlessandraPettinato/beesage-api"
-							rel="noopener noreferrer"
-						>
-							BACK-END GITHUB REPO
-						</a>
-					</span>
-				</aside>
+					<aside className="links">
+						<span className="github">
+							<a
+								target="_blank"
+								href="https://github.com/beesage/dravo"
+								rel="noopener noreferrer"
+							>
+								FE GITHUB REPO
+							</a>
+						</span>
+						<span className="github">
+							<a
+								target="_blank"
+								href="https://github.com/AlessandraPettinato/beesage-api"
+								rel="noopener noreferrer"
+							>
+								BE GITHUB REPO
+							</a>
+						</span>
+					</aside>
+				</div>
 				<p className="project-descr">
 					Dravo is a social media network for beekeepers.
 					<br />
