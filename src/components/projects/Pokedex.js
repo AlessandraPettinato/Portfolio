@@ -9,14 +9,14 @@ export default function Stopwatch() {
 			<div className="tilde-blink-container">
 				<BsArrowRightShort className="arrow" />
 				<p className="tilde"> ~ </p>{" "}
-				<span style={{ color: "white", fontSize: "2rem" }}>TODO LIST</span>
+				<span style={{ color: "white", fontSize: "2rem" }}>POKEDEX</span>
 			</div>
 
 			<div className="content-container">
 				<div className="image-link-container">
 					<aside className="image">
 						<img
-							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1631897478/Untitled_design_2_ryhpzl.png"
+							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1631921267/Untitled_design_3_uu3s1t.png"
 							alt="web app preview of Stopwatch"
 						/>
 					</aside>
@@ -25,7 +25,7 @@ export default function Stopwatch() {
 						<span className="github">
 							<a
 								target="_blank"
-								href="https://github.com/AlessandraPettinato/Todo"
+								href="https://github.com/AlessandraPettinato/pokedex"
 								rel="noopener noreferrer"
 							>
 								GITHUB REPO
@@ -34,18 +34,18 @@ export default function Stopwatch() {
 					</aside>
 				</div>
 				<p className="project-descr">
-					A Todo app created with{" "}
-					<span className="in-project">HTML and CSS</span>. JavaScript was used
-					to manipulate the DOM and make the interaction with the app possible.
+					This project was assigned as part of an interview process I underwent
+					some months ago. The goal was to fetch data from the{" "}
+					<span className="in-project">Pokemon API</span> and render them
+					on-screen.
 					<br />
 					<br />
-					Thanks to this Todo app you can keep note of all your tasks! You are
-					able to add to the list as many "todos" as you want and mark them as
-					done whenever you're indeed done with them!
+					The Pokemon displayed are the original 151. Thanks to a pagination
+					system they are methodically divided into sections.
 					<br />
 					<br />
-					If you change your mind and prefer to chill instead of washing your
-					dishes, you can delete any tasks as well.
+					The users can to catch a Pokemon, store it locally, and delete it
+					whenever they need.
 				</p>
 			</div>
 		</section>

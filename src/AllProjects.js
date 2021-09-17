@@ -5,6 +5,7 @@ import Dravo from "./components/projects/Dravo";
 import SpaceCoachella from "./components/projects/SpaceCoachella";
 import Stopwatch from "./components/projects/Stopwatch";
 import Todo from "./components/projects/Todo";
+import Pokedex from "./components/projects/Pokedex";
 
 export default function AllProjects() {
 	const date = new Date().toDateString().slice(0, 10);
@@ -22,9 +23,10 @@ export default function AllProjects() {
 				</p>
 			</header>
 			<Resume />
-			<BrightFlash />
 			<Dravo />
+			<BrightFlash />
 			<SpaceCoachella />
+			<Pokedex />
 			<Stopwatch />
 			<Todo />
 		</div>
