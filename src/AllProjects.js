@@ -4,6 +4,7 @@ import BrightFlash from "./components/projects/BrightFlash";
 import Dravo from "./components/projects/Dravo";
 import SpaceCoachella from "./components/projects/SpaceCoachella";
 import Stopwatch from "./components/projects/Stopwatch";
+import Todo from "./components/projects/Todo";
 
 export default function AllProjects() {
 	const date = new Date().toDateString().slice(0, 10);
@@ -25,6 +26,7 @@ export default function AllProjects() {
 			<Dravo />
 			<SpaceCoachella />
 			<Stopwatch />
+			<Todo />
 		</div>
 	);
 }
