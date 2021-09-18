@@ -1,13 +1,26 @@
 import React from "react";
-//import Terminal from "./components/Terminal";
+import AllProjects from "./components/AllProjects";
+import Contacts from "./components/Contacts";
+
 import "./App.css";
-import AllProjects from "./AllProjects";
 
 export default function App() {
+	const date = new Date().toDateString().slice(0, 10);
+	const hours = new Date().getHours();
+	const minutes = new Date().getMinutes();
+	const seconds = new Date().getSeconds();
+
+	const login = `${date} ${hours}:${minutes}:${seconds}`;
 	return (
 		<>
-			{/* <Terminal /> */}
+			<header>
+				<p className="login">
+					Last login: <time>{login}</time> on Alessandra Pettinato's
+					<span style={{ color: "#41c731" }}> Portofolio</span>
+				</p>
+			</header>
 			<AllProjects />
+			<Contacts />
 		</>
 	);
 }
