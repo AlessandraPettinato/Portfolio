@@ -20,3 +20,13 @@
 	font-size: 1.5rem;
 	text-decoration: underline;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+	.contacts-container {
+		grid-column: 1;
+		justify-self: center;
+		line-height: 1.5;
+		width: 18rem;
+		margin-top: 2rem;
+	}
+}
