@@ -14,7 +14,7 @@ export default function App() {
 	return (
 		<>
 			<header>
-				<p className="login">
+				<p className="line-1 anim-typewriter login ">
 					Last login: <time>{login}</time> on Alessandra Pettinato's
 					<span style={{ color: "#41c731" }}> Portfolio</span>
 				</p>
