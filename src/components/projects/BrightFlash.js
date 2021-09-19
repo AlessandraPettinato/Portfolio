@@ -28,7 +28,7 @@ export default function BrightFlash() {
 								href="https://github.com/AlessandraPettinato/Bright-Flash"
 								rel="noopener noreferrer"
 							>
-								GITHUB REPO
+								REPOSITORY
 							</a>
 						</span>
 						<span className="website">

@@ -28,15 +28,17 @@ export default function Stopwatch() {
 								href="https://github.com/AlessandraPettinato/Todo"
 								rel="noopener noreferrer"
 							>
-								GITHUB REPO
+								REPOSITORY
 							</a>
 						</span>
 					</aside>
 				</div>
 				<p className="project-descr">
-					A Todo app created with{" "}
-					<span className="in-project">HTML and CSS</span>. JavaScript was used
-					to manipulate the DOM and make the interaction with the app possible.
+					A Todo app created with <span className="in-project">HTML</span> and{" "}
+					<span className="in-project">CSS</span>.
+					<br />
+					<span className="in-project">JavaScript</span> was used to manipulate
+					the DOM and make the interaction with the app possible.
 					<br />
 					<br />
 					Thanks to this Todo app you can keep note of all your tasks! You are

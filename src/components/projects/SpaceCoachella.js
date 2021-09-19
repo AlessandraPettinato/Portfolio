@@ -30,7 +30,7 @@ export default function SpaceCoachella() {
 								href="https://github.com/AlessandraPettinato/Space-Coachella"
 								rel="noopener noreferrer"
 							>
-								GITHUB REPO
+								REPOSITORY
 							</a>
 						</span>
 						<span className="website">
@@ -51,18 +51,8 @@ export default function SpaceCoachella() {
 					<br />
 					<br />
 					Space Coachella was built during a 24 hours hackathon. The requirement
-					of participation was to create a web app using React and the
-					<span>
-						<a
-							target="_blank"
-							href="https://api.nasa.gov/"
-							rel="noopener noreferrer"
-							style={{ fontSize: "1.3rem", color: "#41c731" }}
-						>
-							NASA API
-						</a>
-					</span>
-					.
+					of participation was to create a web app using React and the{" "}
+					<span className="in-project">NASA API</span>.
 					<br />
 					<br />
 					The project, developed by three web developers, won the third place in

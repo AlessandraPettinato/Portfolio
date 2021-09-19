@@ -36,29 +36,8 @@ header {
 	flex-flow: column;
 }
 
-/* .cheatsheet {
-	color: white;
-	font-size: 1rem;
-}
-
-.cheatsheet-container {
-	grid-column: 2/-1;
-	grid-row: 2/-1;
-	text-align: justify;
-}
-
-.cheat-text {
-	color: white;
-	font-size: 1.3rem;
-} */
-
 span {
 	color: #40c5d1;
-	white-space: nowrap;
-}
-
-.in-project {
-	color: #41c731;
 	white-space: nowrap;
 }
 

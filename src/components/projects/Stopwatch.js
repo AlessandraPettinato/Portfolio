@@ -28,15 +28,18 @@ export default function Stopwatch() {
 								href="https://github.com/AlessandraPettinato/Stopwatch"
 								rel="noopener noreferrer"
 							>
-								GITHUB REPO
+								REPOSITORY
 							</a>
 						</span>
 					</aside>
 				</div>
 				<p className="project-descr">
 					A simple Stopwatch created with{" "}
-					<span className="in-project">HTML and CSS</span>. JavaScript was used
-					to manipulate the DOM and make the interaction with the app possible.
+					<span className="in-project">HTML</span> and{" "}
+					<span className="in-project">CSS</span>.
+					<br />
+					<span className="in-project">JavaScript</span> was used to manipulate
+					the DOM and make the interaction with the app possible.
 					<br />
 					<br />
 					This Stopwatch is able to start a counter, stop it, set laps and reset
