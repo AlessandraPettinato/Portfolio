@@ -33,7 +33,7 @@ export default function Resume() {
 				<br />
 				<br />
 				I have always been interested in linguistics, writing, and technology,
-				and I wanted to find a way to combine all of my interests.
+				and I wanted to find a way to combine all of my passions.
 				<br />
 				<br />
 				That is exactly why, at the beginning of 2021, I decided to enrol in the{" "}
