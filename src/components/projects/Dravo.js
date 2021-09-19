@@ -28,7 +28,7 @@ export default function Dravo() {
 								href="https://github.com/beesage/dravo"
 								rel="noopener noreferrer"
 							>
-								FE GITHUB REPO
+								FRONTEND REPO
 							</a>
 						</span>
 						<span className="github">
@@ -37,7 +37,7 @@ export default function Dravo() {
 								href="https://github.com/AlessandraPettinato/beesage-api"
 								rel="noopener noreferrer"
 							>
-								BE GITHUB REPO
+								BACKEND REPO
 							</a>
 						</span>
 					</aside>

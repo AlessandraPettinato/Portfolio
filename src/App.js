@@ -16,7 +16,7 @@ export default function App() {
 			<header>
 				<p className="login">
 					Last login: <time>{login}</time> on Alessandra Pettinato's
-					<span style={{ color: "#41c731" }}> Portofolio</span>
+					<span style={{ color: "#41c731" }}> Portfolio</span>
 				</p>
 			</header>
 			<AllProjects />

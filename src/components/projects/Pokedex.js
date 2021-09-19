@@ -28,7 +28,7 @@ export default function Stopwatch() {
 								href="https://github.com/AlessandraPettinato/pokedex"
 								rel="noopener noreferrer"
 							>
-								GITHUB REPO
+								REPOSITORY
 							</a>
 						</span>
 					</aside>
