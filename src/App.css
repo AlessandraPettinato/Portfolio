@@ -23,10 +23,42 @@ header {
 	grid-row: 1;
 }
 
+.line-1 {
+	position: relative;
+	top: 50%;
+	border-right: 5px solid #9d9d9d;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.anim-typewriter {
+	animation: typewriter 4s steps(44) 1s 1 normal both,
+		blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 34em;
+	}
+}
+
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: #9d9d9d;
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
+
 .login {
 	color: white;
 	align-self: center;
 	font-size: 1.5rem;
+	margin: 0;
 }
 
 .user-container {
@@ -73,5 +105,16 @@ span {
 		font-size: 1.2rem;
 		text-align: left;
 		line-height: 1.8rem;
+	}
+
+	.anim-typewriter {
+		animation: none;
+	}
+
+	.line-1 {
+		white-space: break-spaces;
+		position: inherit;
+		top: 0;
+		border-right: none;
 	}
 }

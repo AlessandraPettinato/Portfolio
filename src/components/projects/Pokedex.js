@@ -44,7 +44,7 @@ export default function Stopwatch() {
 					system they are methodically divided into sections.
 					<br />
 					<br />
-					The users can to catch a Pokemon, store it locally, and delete it
+					The users can catch a Pokemon, store it locally, and delete it
 					whenever they need.
 				</p>
 			</div>
