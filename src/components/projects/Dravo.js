@@ -62,7 +62,8 @@ export default function Dravo() {
 					<br />
 					<br />
 					Guided by an experienced senior developer, we were able to design
-					ourselves the database, write queries, build the whole back-end
+					ourselves the database, write queries using{" "}
+					<span className="in-project"> mySQL</span>, build the whole back-end
 					routing system with <span className="in-project">Express.js</span> and
 					finally display it to the front-end through
 					<span className="in-project"> React</span>.

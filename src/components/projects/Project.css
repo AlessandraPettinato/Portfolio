@@ -79,6 +79,8 @@ span {
 		grid-column: 1/-1;
 		grid-row: 4;
 		font-size: 1.2rem;
+		text-align: justify;
+		word-spacing: -4px;
 	}
 
 	a {

@@ -42,8 +42,8 @@ export default function Resume() {
 				<br />
 				There, I learnt everything I needed to know regarding how to build web
 				and mobile apps using the latest tech stack (
-				<span>MySql, Express, React, Node.js</span>) while following the{" "}
-				<span> SCRUM methodology</span>.
+				<span>MySql, Express,</span> <span>React, Node.js</span>) while
+				following the <span> SCRUM</span> methodology.
 				<br />
 				<br />
 				The boot camp gave me a structure on how to work in this new world, but
