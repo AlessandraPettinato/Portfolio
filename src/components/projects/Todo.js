@@ -31,6 +31,15 @@ export default function Stopwatch() {
 								REPOSITORY
 							</a>
 						</span>
+						<span className="website">
+							<a
+								target="_blank"
+								href="https://sandra-todo.netlify.app/"
+								rel="noopener noreferrer"
+							>
+								DEMO
+							</a>
+						</span>
 					</aside>
 				</div>
 				<p className="project-descr">

@@ -39,7 +39,7 @@ export default function SpaceCoachella() {
 								href="https://spacecoachella.netlify.app/"
 								rel="noopener noreferrer"
 							>
-								WEBSITE
+								DEMO
 							</a>
 						</span>
 					</aside>

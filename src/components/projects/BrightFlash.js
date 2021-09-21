@@ -37,7 +37,7 @@ export default function BrightFlash() {
 								href="https://bright-flash.herokuapp.com/"
 								rel="noopener noreferrer"
 							>
-								WEBSITE
+								DEMO
 							</a>
 						</span>
 					</aside>
