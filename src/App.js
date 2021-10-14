@@ -1,5 +1,5 @@
 import React from "react";
-import AllProjects from "./components/AllProjects";
+import ProjectsList from "./components/ProjectsList";
 import Contacts from "./components/Contacts";
 
 import "./App.css";
@@ -19,8 +19,8 @@ export default function App() {
 					<span style={{ color: "#41c731" }}> Portfolio</span>
 				</p>
 			</header>
-			<AllProjects />
 			<Contacts />
+			<ProjectsList />
 		</>
 	);
 }
