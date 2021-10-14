@@ -16,8 +16,8 @@ export default function Stopwatch() {
 				<div className="image-link-container">
 					<aside className="image">
 						<img
-							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1631921267/Untitled_design_3_uu3s1t.png"
-							alt="web app preview of Stopwatch"
+							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1631921267/Portfolio/Untitled_design_3_uu3s1t.png"
+							alt="web app preview of Pokedex"
 						/>
 					</aside>
 

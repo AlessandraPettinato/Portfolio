@@ -18,7 +18,7 @@ export default function SpaceCoachella() {
 				<div className="image-link-container">
 					<aside className="image">
 						<img
-							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630242340/Untitled_design_1_ciwqkv.svg"
+							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1630242340/Portfolio/Untitled_design_1_ciwqkv.svg"
 							alt="mobile/web app preview of Space Coachella"
 						/>
 					</aside>
