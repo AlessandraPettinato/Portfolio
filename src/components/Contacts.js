@@ -5,8 +5,7 @@ import "./Contacts.css";
 export default function Resume() {
 	return (
 		<section className="contacts-container">
-			<aside>
-				<h1 className="contacts">CONTACTS</h1>
+			<aside className="contacts">
 				<>
 					<a
 						target="_blank"

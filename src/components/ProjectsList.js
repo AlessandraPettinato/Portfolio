@@ -7,7 +7,7 @@ import Stopwatch from "./projects/Stopwatch";
 import Todo from "./projects/Todo";
 import Pokedex from "./projects/Pokedex";
 
-export default function AllProjects() {
+export default function ProjectsList() {
 	return (
 		<div className="all-projects-container">
 			<Resume />
