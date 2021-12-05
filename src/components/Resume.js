@@ -12,9 +12,9 @@ export default function Resume() {
 				<span style={{ color: "white", fontSize: "2rem" }}>ABOUT ME</span>
 			</div>
 			<p className="resume-text">
-				Hello everyone! My name is Alessandra, a passionate <span>Web</span>{" "}
-				<span>developer</span> from South Italy who is about to relocate to
-				Berlin soon.
+				Hello everyone! My name is Alessandra Pettinato, a passionate{" "}
+				<span>Web</span> <span>developer</span> from South Italy who is about to
+				relocate to Berlin soon.
 				<br />
 				<br />
 				During these past few years, I worked as a <span>Content Editor </span>

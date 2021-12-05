@@ -34,9 +34,8 @@ export default function Stopwatch() {
 					</aside>
 				</div>
 				<p className="project-descr">
-					This project was assigned as part of an interview process I underwent
-					some months ago. The goal was to fetch data from the{" "}
-					<span className="in-project">Pokemon API</span> and render them
+					The goal of this project was to train the ability to fetch from the{" "}
+					<span className="in-project">Pokemon API</span> and render the data
 					on-screen.
 					<br />
 					<br />

@@ -8,7 +8,7 @@ module.exports = {
 		publicPath: "/",
 	},
 	devServer: {
-		port: 5000,
+		port: 3000,
 		contentBase: "./dist",
 		historyApiFallback: true,
 	},
@@ -17,6 +17,17 @@ module.exports = {
 	},
 	module: {
 		rules: [
+			{
+				test: /.(jpe?g|gif|png|svg)$/i,
+				use: [
+					{
+						loader: "url-loader",
+						options: {
+							limit: 10000,
+						},
+					},
+				],
+			},
 			{
 				test: /\.(js|jsx)$/,
 				exclude: /node_modules/,
