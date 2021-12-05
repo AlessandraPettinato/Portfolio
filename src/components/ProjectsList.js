@@ -1,4 +1,5 @@
 import React from "react";
+
 import Resume from "./Resume";
 import BrightFlash from "./projects/BrightFlash";
 import Dravo from "./projects/Dravo";
@@ -10,7 +11,7 @@ import Pokedex from "./projects/Pokedex";
 export default function ProjectsList() {
 	return (
 		<div className="all-projects-container">
-			<Resume />
+			{/* <Resume /> */}
 			<Dravo />
 			<BrightFlash />
 			<SpaceCoachella />
