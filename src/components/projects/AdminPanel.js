@@ -51,7 +51,7 @@ export default function AdminPanel() {
 					<br />
 					<br />I am currently working on restyling each page using{" "}
 					<span className="in-project">material-ui</span> components, and on
-					creating further functionality.
+					creating further functionalities.
 					<br />
 					<br />
 				</p>
