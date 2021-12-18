@@ -16,7 +16,7 @@ export default function AdminPanel() {
 				<div className="image-link-container">
 					<aside className="image">
 						<img
-							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1639668798/Portfolio/Untitled_design_5_dvxyca.png"
+							src="https://res.cloudinary.com/dg5lakmem/image/upload/v1639835456/Portfolio/Untitled_design_6_ypkond.png"
 							alt="web app preview of Admin Panel"
 						/>
 					</aside>
