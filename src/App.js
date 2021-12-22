@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectsList from "./components/ProjectsList";
+import ProjectsList from "./components/projects/ProjectsList";
 import Contacts from "./components/Contacts";
 
 import "./App.css";

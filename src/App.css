@@ -67,11 +67,13 @@ header {
 	display: flex;
 	flex-flow: column;
 }
-
 span {
+	margin: 0;
+}
+/* span {
 	color: #40c5d1;
 	white-space: nowrap;
-}
+} */
 
 .hidden {
 	display: none;
