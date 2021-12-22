@@ -44,6 +44,7 @@ export default function ProjectCard({ item }) {
 		"HTML",
 		"CSS",
 		"JavaScript",
+		"Unix shell commands",
 	];
 
 	return (
@@ -106,14 +107,16 @@ export default function ProjectCard({ item }) {
 						)}
 					</aside>
 				</div>
-				<Highlighter
-					highlightTag="span"
-					// className="project-whole-descr"
-					highlightClassName="highlight-text"
-					unhighlightClassName="project-descr"
-					searchWords={searchWords}
-					textToHighlight={text}
-				/>
+				<div className="text-container">
+					<Highlighter
+						highlightTag="span"
+						// className="project-whole-descr"
+						highlightClassName="highlight-text"
+						unhighlightClassName="project-descr"
+						searchWords={searchWords}
+						textToHighlight={text}
+					/>
+				</div>
 			</div>
 		</section>
 	);
