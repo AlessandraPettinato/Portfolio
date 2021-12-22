@@ -20,6 +20,7 @@
 	grid-column: 1/-1;
 	border: 5px double #40c5d1;
 	margin: 0;
+	padding: 0.5rem;
 }
 
 .image {
@@ -46,11 +47,10 @@
 
 .project-descr {
 	color: white;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	grid-row: 3;
 	grid-column: 1/-1;
-	border: 5px double #40c5d1;
-	padding: 1rem;
+	text-align: justify;
 }
 
 img {
@@ -63,10 +63,15 @@ a {
 	color: #41c731;
 }
 
-.in-project,
-span {
-	color: #41c731;
+.gitHub,
+.website {
 	white-space: nowrap;
+}
+
+.highlight-text {
+	font-size: 1.1rem;
+	background-color: transparent;
+	color: #41c731;
 	margin: 0;
 }
 
